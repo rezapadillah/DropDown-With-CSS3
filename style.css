@@ -1,0 +1,162 @@
+body{
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	background: #ccc;
+}
+
+nav ul{
+	background: -webkit-linear-gradient(top, #ea6740 0%, #d35837 100%);
+	list-style: none;
+	width: 55%;
+	margin: 0 auto;
+	box-shadow: 0 3px 3px rgba(0,0,0,0.4);
+}
+
+nav ul:after{
+	display: block;
+	content: " ";
+	clear: both;
+}
+
+nav ul li{
+	float: left;
+	display: block;
+	position: relative;
+}
+
+nav ul li a{
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 25px;
+}
+
+nav ul ul{
+	display: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 250px;
+}
+
+nav ul ul li{
+	float: none;
+}
+
+nav ul li:hover > ul{
+	display: block;
+}
+
+nav ul li:hover >a {
+	background: #ea6740;
+}
+
+/*Konten*/
+
+section{
+	width: 56%;
+	background: #fff;
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.7);
+	height: 500px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+}
+
+p{
+	font-size: 100px;
+	font-family: playfair display;
+	color: #000;
+	cursor: pointer;
+}
+
+p:hover{
+	color: #a53333;
+	transition:0.6s;
+}
+
+::selection{
+	background: #d35837;
+	color: #fff;
+}
+
+.smile{
+	background: #d35837;
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	border-radius: 200px;
+}
+
+.mata-l{
+	background: #fff;
+	width: 50px;
+	height: 50px;
+	margin: auto;
+	border-radius: 100px;
+	float: left;
+	margin-left: 70px;
+	margin-top: 50px;
+}
+
+.mata-r{
+	background: #fff;
+	width: 50px;
+	height: 50px;
+	margin: auto;
+	border-radius: 100px;
+	float: right;
+	margin-right: 70px;
+	margin-top: 50px;
+}
+
+.mulut{
+	width: 150px;
+	height: 80px;
+	border-radius: 5px;
+	margin-top: 40px;
+	float: left;
+	background: #263030;
+	margin-left: 75px;
+}
+
+.gigi-l{
+	background: #fff;
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-left: 40px;
+}
+
+.gigi-r{
+	background: #fff;
+	width: 30px;
+	height: 30px;
+	float: right;
+	margin-right: 40px;
+}
+
+.titik-l{
+	background: #263030;
+	width: 20px;
+	height: 20px;
+	border-radius: 100px;
+	margin: 15px auto;
+}
+
+.titik-r{
+	background: #263030;
+	width: 20px;
+	height: 20px;
+	border-radius: 100px;
+	margin: 15px auto;
+}
+
+.mrp{
+	margin-top: -50px;
+	font-size: 30px;
+	color: #263030;
+	text-shadow: 2px 2px 2px rgba(211,88,55,0.6);
+	text-align: center;
+}
+
